@@ -1,0 +1,6 @@
+name: JewelsExtras
+version: '${project.version}'
+main: org.minejewels.jewelsextras.JewelsExtras
+api-version: '1.19'
+description: 'Extras for MineJewels'
+author: Consciences

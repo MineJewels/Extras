@@ -1,0 +1,6 @@
+messages:
+  welcome:
+    message:
+      enabled: true
+      value:
+        - "&a&l[!] &aWelcome, %player%&a!"
