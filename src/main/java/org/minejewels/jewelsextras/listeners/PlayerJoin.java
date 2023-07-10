@@ -22,7 +22,7 @@ public class PlayerJoin extends AbyssListener<JewelsExtras> {
 
         final Player player = event.getPlayer();
 
-        player.performCommand(this.spawnCommand);
+        player.teleport(this.plugin.getConstants().getSpawn());
 
         final PlaceholderReplacer replacer = new PlaceholderReplacer()
                 .addPlaceholder("%player%", player.getName());
