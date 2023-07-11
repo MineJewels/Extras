@@ -13,4 +13,24 @@ messages:
     message:
       enabled: true
       value:
-        - "&a&l[!] &aThe next restart is in &n%time%&e!"
+        - "&a&l[!] &aThe next restart is in &n%time%&a!"
+  ggwave-help:
+    message:
+      enabled: true
+      value:
+        - "&a/ggwave start (player) (cost) (message)"
+  ggwave-started:
+    message:
+      enabled: true
+      value:
+        - "&a&l[!] &a%player% has purchased &n%package%&a on the store for &n%cost%&a jewels!"
+  joined-gg-wave:
+    message:
+      enabled: true
+      value:
+        - "&a&l[!] &aThank you for joining the GG Wave!"
+  ggwave-ended:
+    message:
+      enabled: true
+      value:
+        - "&a&l[!] &aThe GGWave has ended! Thank you everyone!"

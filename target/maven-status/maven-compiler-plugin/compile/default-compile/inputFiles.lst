@@ -1,7 +1,11 @@
 C:\Users\gabri\MC\Abyss\Extras\src\main\java\org\minejewels\jewelsextras\commands\SpawnCommand.java
 C:\Users\gabri\MC\Abyss\Extras\src\main\java\org\minejewels\jewelsextras\task\RestartTask.java
 C:\Users\gabri\MC\Abyss\Extras\src\main\java\org\minejewels\jewelsextras\autorestart\AutoRestart.java
+C:\Users\gabri\MC\Abyss\Extras\src\main\java\org\minejewels\jewelsextras\commands\ggwave\GGWaveCommand.java
 C:\Users\gabri\MC\Abyss\Extras\src\main\java\org\minejewels\jewelsextras\commands\NextRestartCommand.java
 C:\Users\gabri\MC\Abyss\Extras\src\main\java\org\minejewels\jewelsextras\JewelsExtras.java
 C:\Users\gabri\MC\Abyss\Extras\src\main\java\org\minejewels\jewelsextras\listeners\PlayerJoin.java
 C:\Users\gabri\MC\Abyss\Extras\src\main\java\org\minejewels\jewelsextras\constants\Constants.java
+C:\Users\gabri\MC\Abyss\Extras\src\main\java\org\minejewels\jewelsextras\ggwave\GGWave.java
+C:\Users\gabri\MC\Abyss\Extras\src\main\java\org\minejewels\jewelsextras\commands\ggwave\sub\GGWaveStartCommand.java
+C:\Users\gabri\MC\Abyss\Extras\src\main\java\org\minejewels\jewelsextras\listeners\ChatListener.java

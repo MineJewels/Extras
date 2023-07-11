@@ -11,3 +11,13 @@ spawn-location:
 ## Auto Restart
 
 duration: 1 # In Hours, 72000
+
+## GGWave
+
+ggwave-time: 30 # In Seconds
+gg-list:
+  - "&a&lGG!"
+  - "&b&lGG!"
+  - "&c&lGG!"
+entry-commands:
+  - "eco give %player% 100"

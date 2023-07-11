@@ -78,6 +78,13 @@
             <systemPath>${basedir}/libs/AbyssLib.jar</systemPath>
         </dependency>
         <dependency>
+            <groupId>org.abyssdev</groupId>
+            <artifactId>abysschat</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/libs/AbyssChat-PRE.jar</systemPath>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.26</version>

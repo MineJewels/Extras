@@ -4,6 +4,8 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.minejewels.jewelsextras.JewelsExtras;
 
+import java.util.List;
+
 public class Constants {
 
     private final JewelsExtras plugin;
@@ -25,5 +27,17 @@ public class Constants {
 
     public long getRestartTime() {
         return this.plugin.getSettingsConfig().getLong("duration");
+    }
+
+    public long getGGWaveTime() {
+        return this.plugin.getSettingsConfig().getLong("ggwave-time");
+    }
+
+    public List<String> getGGs() {
+        return this.plugin.getSettingsConfig().getColoredStringList("gg-list");
+    }
+
+    public List<String> getEntryCommands() {
+        return this.plugin.getSettingsConfig().getColoredStringList("entry-commands");
     }
 }
