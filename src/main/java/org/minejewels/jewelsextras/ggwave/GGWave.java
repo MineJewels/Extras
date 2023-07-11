@@ -32,7 +32,7 @@ public class GGWave {
 
             AbyssScheduler.sync().runLater(() -> {
                 plugin.setGGWave(false);
-                plugin.getMessageCache().getMessage("messages.ggwave-ended").broadcast();
+                plugin.getMessageCache().getMessage("messages.ggwave-ended").broadcast(replacer);
                 ChatListener.PLAYERS.clear();
             }, plugin.getConstants().getGGWaveTime() * 20L);
         }
