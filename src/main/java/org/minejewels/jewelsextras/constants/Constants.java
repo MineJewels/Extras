@@ -22,4 +22,8 @@ public class Constants {
                 this.plugin.getSettingsConfig().getInt("spawn-location.pitch")
         ));
     }
+
+    public long getRestartTime() {
+        return this.plugin.getSettingsConfig().getLong("duration");
+    }
 }

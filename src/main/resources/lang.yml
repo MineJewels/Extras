@@ -9,3 +9,8 @@ messages:
       enabled: true
       value:
         - "&a&l[!] &aYou have been &nteleported&a to spawn!"
+  next-restart:
+    message:
+      enabled: true
+      value:
+        - "&a&l[!] &aThe next restart is in &n%time%&a!"

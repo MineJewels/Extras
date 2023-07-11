@@ -1,3 +1,5 @@
+# Spawn/Join
+
 spawn-location:
   world: "Spawn"
   x: 0
@@ -5,3 +7,7 @@ spawn-location:
   z: 0
   yaw: 90.0
   pitch: 0.0
+
+## Auto Restart
+
+duration: 1 # In Hours, 72000
