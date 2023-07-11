@@ -34,3 +34,13 @@ messages:
       enabled: true
       value:
         - "&a&l[!] &aThe GGWave has ended! Thank you everyone!"
+  started:
+    message:
+      enabled: true
+      value:
+        - "&a&l[!] &Start your adventure now!"
+  already-started:
+    message:
+      enabled: true
+      value:
+        - "&c&l[!] &cYou have already started your adventure!"

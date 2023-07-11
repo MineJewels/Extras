@@ -7,6 +7,7 @@ import net.abyssdev.abysslib.text.MessageCache;
 import org.minejewels.jewelsextras.autorestart.AutoRestart;
 import org.minejewels.jewelsextras.commands.NextRestartCommand;
 import org.minejewels.jewelsextras.commands.SpawnCommand;
+import org.minejewels.jewelsextras.commands.StartCommand;
 import org.minejewels.jewelsextras.commands.ggwave.GGWaveCommand;
 import org.minejewels.jewelsextras.constants.Constants;
 import org.minejewels.jewelsextras.listeners.ChatListener;
@@ -50,6 +51,7 @@ public final class JewelsExtras extends AbyssPlugin {
         new SpawnCommand(this).register();
         new NextRestartCommand(this).register();
         new GGWaveCommand(this).register();
+        new StartCommand(this).register();
     }
 
     private void loadListeners() {

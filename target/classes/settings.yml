@@ -21,3 +21,11 @@ gg-list:
   - "&c&lGG!"
 entry-commands:
   - "eco give %player% 100"
+
+## /start
+
+player-commands:
+  - "realm"
+
+system-commands:
+  - "gens give %player% COAL_ORE 1"

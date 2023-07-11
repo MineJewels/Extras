@@ -38,6 +38,14 @@ public class Constants {
     }
 
     public List<String> getEntryCommands() {
-        return this.plugin.getSettingsConfig().getColoredStringList("entry-commands");
+        return this.plugin.getSettingsConfig().getStringList("entry-commands");
+    }
+
+    public List<String> getPlayerCommands() {
+        return this.plugin.getSettingsConfig().getStringList("player-commands");
+    }
+
+    public List<String> getSystemCommands() {
+        return this.plugin.getSettingsConfig().getStringList("system-commands");
     }
 }
