@@ -1,4 +1,7 @@
+org\minejewels\jewelsextras\task\RestartTask.class
+org\minejewels\jewelsextras\commands\NextRestartCommand.class
 org\minejewels\jewelsextras\constants\Constants.class
 org\minejewels\jewelsextras\listeners\PlayerJoin.class
+org\minejewels\jewelsextras\autorestart\AutoRestart.class
 org\minejewels\jewelsextras\commands\SpawnCommand.class
 org\minejewels\jewelsextras\JewelsExtras.class
