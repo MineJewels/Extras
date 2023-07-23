@@ -6,12 +6,12 @@ import org.bukkit.entity.Player;
 import org.eclipse.collections.api.factory.Lists;
 import org.minejewels.jewelsextras.JewelsExtras;
 
-public class SpawnCommand extends AbyssCommand<JewelsExtras, Player> {
+public class HubCommand extends AbyssCommand<JewelsExtras, Player> {
 
-    public SpawnCommand(final JewelsExtras plugin) {
-        super(plugin, "spawn", Player.class);
+    public HubCommand(final JewelsExtras plugin) {
+        super(plugin, "lobby", Player.class);
 
-        this.setAliases(Lists.mutable.of("spawn"));
+        this.setAliases(Lists.mutable.of("lobby", "hub"));
     }
 
     @Override
@@ -19,8 +19,6 @@ public class SpawnCommand extends AbyssCommand<JewelsExtras, Player> {
 
         final Player player = context.getSender();
 
-        player.teleport(this.plugin.getConstants().getSpawn());
-
-        this.plugin.getMessageCache().sendMessage(player, "messages.spawn");
+        this.plugin.getBungeeUtils().sendPlayerToServer(player, "hub");
     }
 }
