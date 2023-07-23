@@ -8,7 +8,9 @@ org\minejewels\jewelsextras\JewelsExtras.class
 org\minejewels\jewelsextras\listeners\ChatListener.class
 org\minejewels\jewelsextras\commands\ggwave\sub\GGWaveStartCommand.class
 org\minejewels\jewelsextras\commands\StartCommand.class
+org\minejewels\jewelsextras\task\AnnouncementTask.class
 org\minejewels\jewelsextras\utils\BungeeUtils.class
 org\minejewels\jewelsextras\ggwave\GGWave.class
+org\minejewels\jewelsextras\announcement\AnnounceService.class
 org\minejewels\jewelsextras\autorestart\AutoRestart.class
 org\minejewels\jewelsextras\commands\SpawnCommand.class

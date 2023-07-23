@@ -48,4 +48,8 @@ public class Constants {
     public List<String> getSystemCommands() {
         return this.plugin.getSettingsConfig().getStringList("system-commands");
     }
+
+    public int getAnnouncementTime() {
+        return this.plugin.getSettingsConfig().getInt("announce");
+    }
 }

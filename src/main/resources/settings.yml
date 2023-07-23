@@ -29,3 +29,5 @@ player-commands:
 
 system-commands:
   - "gens give %player% COAL_ORE 1"
+
+announce: 5 # In Minutes
