@@ -2,6 +2,7 @@ package org.minejewels.jewelsextras.listeners;
 
 import net.abyssdev.abysslib.listener.AbyssListener;
 import net.abyssdev.abysslib.placeholder.PlaceholderReplacer;
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerJoinEvent;
@@ -22,7 +23,9 @@ public class PlayerJoin extends AbyssListener<JewelsExtras> {
 
         final Player player = event.getPlayer();
 
-        player.teleport(this.plugin.getConstants().getSpawn());
+        player.setBedSpawnLocation(this.plugin.getConstants().getSpawn());
+
+        Bukkit.getScheduler().runTaskLater(this.plugin, () -> player.teleport(plugin.getConstants().getSpawn()), 3L);
 
         final PlaceholderReplacer replacer = new PlaceholderReplacer()
                 .addPlaceholder("%player%", player.getName());
